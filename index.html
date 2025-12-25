@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pranav Patil | Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-glass fixed-top navbar-light">
+      <div class="container">
+        <a class="navbar-brand fw-semibold" href="#home">
+          Pranav<span>.</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-2">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-7 reveal">
+            <div class="hero-badge mb-3">
+              <i class="bi bi-geo-alt"></i>
+              <span>Pune, India</span>
+            </div>
+            <h1 class="hero-name mb-2">Hi, I'm <span>Pranav Patil</span></h1>
+            <div class="typed-role mt-1 mb-3">
+              <i class="bi bi-terminal"></i>
+              <span id="typed-text"></span>
+              <span class="cursor"></span>
+            </div>
+            <p class="hero-subtitle mb-4">
+              A technology enthusiast with a Diploma and an BE,
+              currently enhancing my skills in high-end computing through the
+              PG-DAC program at CDAC.
+            </p>
+
+            <div class="d-flex flex-wrap gap-3">
+              <a
+                href="https://drive.google.com/file/d/1eLiFNdZozyKA5MW2-1NHX4HeTyA3i2_G/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-primary-glass"
+              >
+                <i class="bi bi-download"></i>
+                Download CV
+              </a>
+              <a href="#projects" class="btn-outline-glass">
+                <i class="bi bi-folder2-open"></i>
+                View Projects
+              </a>
+            </div>
+          </div>
+  
+          <div
+            class="col-lg-5 d-flex justify-content-lg-end justify-content-center reveal"
+          >
+            <div class="hero-avatar">
+              <div class="hero-avatar-inner">
+                <img
+                  src="img/pranav.jpg"
+                  alt="Pranav Patil"
+                  class="hero-avatar-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="container">
+        <div class="row justify-content-center mb-4">
+          <div class="col-lg-8 text-center">
+            <h2 class="section-title">Skills</h2>
+            <p class="section-subtitle">
+              Technologies and tools I've worked with during my academic and
+              project journey.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-7 reveal">
+            <div class="glass-card p-4 h-100">
+              <h5 class="mb-3">Technical Skills</h5>
+              <div class="mb-2">
+                <span class="skill-pill">
+                  <i class="bi bi-code-slash me-1"></i> HTML
+                </span>
+                <span class="skill-pill">
+                  <i class="bi bi-code-slash me-1"></i> CSS
+                </span>
+                <span class="skill-pill">
+                  <i class="bi bi-bootstrap me-1"></i> Bootstrap
+                </span>
+                <span class="skill-pill">
+                  <i class="bi bi-braces-asterisk me-1"></i> JavaScript
+                </span>
+                <span class="skill-pill">
+                  <i class="bi bi-react me-1"></i> React
+                </span>
+                <span class="skill-pill">
+                  <i class="bi bi-cup-hot me-1"></i> Java
+                </span>
+                <span class="skill-pill">
+                  <i class="bi bi-filetype-py me-1"></i> Python
+                </span>
+                <span class="skill-pill">
+                  <i class="bi bi-database me-1"></i> MySQL
+                </span>
+                <span class="skill-pill">
+                  <i class="bi bi-microsoft me-1"></i> MS.NET (C#)
+                </span>
+                <span class="skill-pill">
+                  <i class="bi bi-git me-1"></i> Git
+                </span>
+                <span class="skill-pill">
+                  <i class="bi bi-github me-1"></i> GitHub
+                </span>
+                <span class="skill-pill">
+                  <i class="bi bi-diagram-3 me-1"></i> Machine Learning
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 reveal">
+            <div class="glass-card p-4 h-100">
+              <h5 class="mb-3">Tools & Platforms</h5>
+              <div class="mb-3">
+                <span class="skill-pill">
+                  <i class="bi bi-window-sidebar me-1"></i> VS Code
+                </span>
+                <span class="skill-pill">
+                  <i class="bi bi-window-sidebar me-1"></i> Eclipse
+                </span>
+                <span class="skill-pill">
+                  <i class="bi bi-box-arrow-in-right me-1"></i> Postman
+                </span>
+                <span class="skill-pill">
+                  <i class="bi bi-node-plus me-1"></i> Node.js
+                </span>
+                <span class="skill-pill">
+                  <i class="bi bi-collection me-1"></i> MongoDB
+                </span>
+              </div>
+              <p class="text-muted small mb-0">
+                Comfortable moving across frontend and backend stacks,
+                connecting APIs, and working with databases to build complete
+                solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <!-- Education -->
+<section id="education" class="education-section">
+  <div class="container">
+    
+    <h2 class="edu-title text-center">Education</h2>
+<p class="section-subtitle text-center">
+  Academic background building the foundation for my journey as a software engineer.
+</p>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card reveal">
+        <img
+          src="https://www.met.edu/uploadfile/images/MET_Nashik.jpg"
+          alt="MET Nashik"
+        />
+        <h3>MET NASHIK–CDAC</h3>
+        <p>PG-DAC<br />2025–2026</p>
+      </div>
+
+      <div class="edu-card reveal">
+        <img
+          src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz7fbHiltDxBDtmaBDTFMhj_r1UG7TSNyS50RvknO9kPI8UMs3IwE4RAIYVLGn8Y5MUFjmdU36XMFGtu14abvBk-OVbnlUlhdJovL5HfznW97au5C5G99QKO_Ue9IO0ARG0t5Rp=s680-w680-h510-rw"
+          alt="DYPIEMR Akurdi"
+        />
+        <h3>DYPIEMR Akurdi</h3>
+        <p>BE<br />2020–2024</p>
+      </div>
+
+      <div class="edu-card reveal">
+        <img
+          src="https://www.ssvpsengg.ac.in/images/about.jpg"
+          alt="SSVPS Dhule"
+        />
+        <h3>SSVPS DHULE</h3>
+        <p>Diploma<br />2017–2020</p>
+      </div>
+
+      <div class="edu-card reveal">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIRHT3ZhPjmF1ODfrietV4kak5JnQIV1PBIw&s"
+          alt="G.S Highschool Amalner"
+        />
+        <h3>G.S Highschool Amalner</h3>
+        <p>10th<br />2016–2017</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <div class="row justify-content-center mb-4">
+          <div class="col-lg-8 text-center">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">
+              A glimpse of the projects I’ve built, focusing on real-world use
+              cases and end-to-end implementation.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <!-- SafeGate -->
+          <div class="col-lg-6 reveal">
+            <div class="glass-card project-card p-4 h-100">
+              <div
+                class="d-flex justify-content-between align-items-start mb-2"
+              >
+                <h5 class="mb-0">SafeGate</h5>
+                <div class="project-tag">
+                  <i class="bi bi-shield-check"></i> Society Management
+                </div>
+              </div>
+              <p class="project-tech mb-2">
+                <strong>Tech Stack:</strong> React, MS .NET, MySQL, Razorpay SDK
+              </p>
+              <p class="mb-3">
+                SafeGate is a society management platform that helps manage
+                resident complaints, gate security, package management,
+                maintenance payments, and paid visitor parking. It integrates
+                Razorpay SDK for secure online payments and improves
+                transparency between residents, security, and management.
+              </p>
+              <a
+                href="https://github.com/be1ngaayu5h/SafeGate.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-outline-glass btn-sm mt-auto"
+              >
+                <i class="bi bi-github"></i>
+                View on GitHub
+              </a>
+            </div>
+          </div>
+
+          <!-- AutoEconomix -->
+          <div class="col-lg-6 reveal">
+            <div class="glass-card project-card p-4 h-100">
+              <div
+                class="d-flex justify-content-between align-items-start mb-2"
+              >
+                <h5 class="mb-0">AutoEconomix</h5>
+                <div class="project-tag">
+                  <i class="bi bi-graph-up-arrow"></i> ML Prediction
+                </div>
+              </div>
+              <p class="project-tech mb-2">
+                <strong>Tech Stack:</strong> Streamlit, Machine Learning, Python
+              </p>
+              <p class="mb-3">
+                AutoEconomix is a machine learning–powered web app that predicts
+                the price of a used vehicle based on key parameters. It
+                simplifies price estimation for buyers and sellers by providing
+                quick, data-driven insights.
+              </p>
+              <a
+                href="https://github.com/11pranav/AutoEconomix"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-outline-glass btn-sm mt-auto"
+              >
+                <i class="bi bi-github"></i>
+                View on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row justify-content-center mb-4">
+          <div class="col-lg-8 text-center">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">
+              A fresher with a strong academic foundation, exploring software
+              engineering through real-world projects.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6 reveal">
+            <div class="glass-card p-4 h-100">
+              <h5 class="mb-3">Profile</h5>
+              <p class="mb-3">
+                I am an aspiring software engineer with a background in BE
+                mechanical, currently upskilling through the PG-DAC program at
+                CDAC to strengthen my expertise in high-end computing and modern
+                technologies.
+              </p>
+              <p class="mb-2">
+                I enjoy building practical solutions like
+                <strong>SafeGate</strong> (society management platform) and
+                <strong>AutoEconomix</strong> (vehicle price prediction), and I
+                love working across both backend and frontend stacks.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 reveal">
+            <div class="glass-card p-4 h-100">
+              <h5 class="mb-3">Quick Info</h5>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <p class="mb-1 quick-label">Name</p>
+                  <p class="mb-0">Pranav Patil</p>
+                </div>
+                <div class="col-sm-6">
+                  <p class="mb-1 quick-label">Location</p>
+                  <p class="mb-0">Pune, India</p>
+                </div>
+                <div class="col-sm-6">
+                  <p class="mb-1 quick-label">Email</p>
+                  <p class="mb-0">pranavispatil@gmail.com</p>
+                </div>
+                <div class="col-sm-6">
+                  <p class="mb-1 quick-label">Phone</p>
+                  <p class="mb-0">+91 72628 87782<br />+91 94038 24299</p>
+                </div>
+                <div class="col-12 pt-2">
+                  <p class="mb-1 quick-label">Profiles</p>
+                  <a
+                    href="https://github.com/11pranav"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-icon float-animation"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/pranav-patil-219604321"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-icon float-animation"
+                  >
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row justify-content-center mb-4">
+          <div class="col-lg-8 text-center">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">
+              Elevate the conversation — reach out for opportunities,
+              collaborations, or project ideas.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+          <!-- Email Card -->
+          <div class="col-md-4 reveal">
+            <div class="glass-card contact-card p-4 text-center">
+              <div class="contact-icon mb-2">
+                <i class="bi bi-envelope-fill"></i>
+              </div>
+              <p class="contact-label mb-1">Email</p>
+              <p class="contact-value mb-0">
+                <a href="mailto:pranavispatil@gmail.com">
+                  pranavispatil@gmail.com
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <!-- Phone Card -->
+          <div class="col-md-4 reveal">
+            <div class="glass-card contact-card p-4 text-center">
+              <div class="contact-icon mb-2">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+              <p class="contact-label mb-1">Phone</p>
+              <p class="contact-value mb-0">
+                <a href="tel:+919403824299"
+                  >+91 72628 87782<br />+91 94038 24299</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <!-- Location Card -->
+          <div class="col-md-4 reveal">
+            <div class="glass-card contact-card p-4 text-center">
+              <div class="contact-icon mb-2">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <p class="contact-label mb-1">Location</p>
+              <p class="contact-value mb-0">Pune, India</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-lg-8 text-center reveal">
+            <p class="section-subtitle mb-3">
+              Find me online and let's connect.
+            </p>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+              <a
+                href="https://github.com/11pranav/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-social"
+              >
+                <i class="bi bi-github"></i>
+                GitHub
+              </a>
+              <a
+                href="https://www.linkedin.com/in/pranav-patil-219604321"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-social"
+              >
+                <i class="bi bi-linkedin"></i>
+                LinkedIn
+              </a>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Back to top -->
+    <a
+      href="#home"
+      class="position-fixed bottom-0 end-0 m-4 btn-primary-glass back-to-top"
+      title="Back to top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <small> Built with 💙 and code. | Pranav Patil. </small>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
